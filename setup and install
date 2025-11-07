@@ -38,3 +38,10 @@ cd my-app
 npm init -y
 npm install react react-dom
 npm install -D vite
+
+
+
+errorr solved
+
+
+npm install patch-package --save-dev
