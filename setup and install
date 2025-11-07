@@ -1,0 +1,40 @@
+
+For older setups (Node 10–16), use Create React App:
+
+npx create-react-app my-app
+cd my-app
+npm start
+
+
+Or if npx not available (older npm versions):
+
+npm install -g create-react-app
+create-react-app my-app
+cd my-app
+npm start
+
+
+Option 1: React with Vite (fastest modern setup)
+npm create vite@latest my-app
+cd my-app
+npm install
+npm run dev
+
+
+Then choose:
+
+Framework: React
+
+Variant: JavaScript or TypeScript
+
+✅ Option 2: React with Next.js (for SSR/modern apps)
+npx create-next-app@latest my-app
+cd my-app
+npm run dev
+
+✅ Option 3: Manual React Setup (for custom build)
+mkdir my-app
+cd my-app
+npm init -y
+npm install react react-dom
+npm install -D vite
